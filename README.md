@@ -12,6 +12,10 @@ You can get the release: https://github.com/AAVision/all-here/releases/tag/v0.0.
 ```bash
 go run . --port 9887
 ```
+then try to hit the following endpoint with the status code you want:
+```bash
+http://localhost:9887/504
+```
 
 ## Build 
 ```bash
