@@ -21,7 +21,13 @@ go run . --port 9887
 ```
 then try to hit the following endpoint with the status code you want:
 ```bash
-http://localhost:9887/504
+http://localhost:9887/{status_code}
+http://localhost:9887/302
+```
+
+You'll get a response with the status code you sent and a response body with:
+```bash
+{"message":"Found"}
 ```
 
 ## Build 
